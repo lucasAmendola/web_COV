@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/web_COV',
+  basePath: '/',
   supportedLocales: {
   "en-US": ""
 },

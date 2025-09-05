@@ -1,5 +1,7 @@
 {
   "routes": {
-    "/web_COV": {}
+    "/": {},
+    "/familias": {},
+    "/home": {}
   }
 }

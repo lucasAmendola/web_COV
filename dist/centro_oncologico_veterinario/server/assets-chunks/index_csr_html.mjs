@@ -3,12 +3,12 @@ export default `<!doctype html>
 <head>
   <meta charset="utf-8">
   <title>CentroOncologicoVeterinario</title>
-  <base href="/web_COV/">
+  <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-<style>:root{--titulo:#000000;--color-primario:#7ACBCF;--font-family-base:"Poppins", sans-serif;--font-size-title:2.3rem;--font-size-paragraph:1.125rem}body{margin:auto}</style><link rel="stylesheet" href="styles-W44TZVMQ.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-W44TZVMQ.css"></noscript></head>
+<style>:root{--titulo:#000000;--color-primario:#7ACBCF;--font-family-base:"Poppins", sans-serif;--font-size-title:2.3rem;--font-size-paragraph:1.125rem}body{margin:auto}</style><link rel="stylesheet" href="styles-FOQ3FNTO.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-FOQ3FNTO.css"></noscript></head>
 <body ngcm="">
   <app-root></app-root>
-<script src="polyfills-5CFQRCPP.js" type="module"></script><script src="main-GRBKOPFO.js" type="module"></script></body>
+<script src="polyfills-5CFQRCPP.js" type="module"></script><script src="main-DGJLPEUU.js" type="module"></script></body>
 </html>
 `;
