@@ -1,12 +1,9 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { SmallBanner } from './small-banner/small-banner/small-banner';
-import { SimplySection } from './section-component/simply-section/simply-section';
-import { EspecialSection1 } from './especial-section-1/especial-section-1';
+import { RouterModule, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, SmallBanner, SimplySection, EspecialSection1],
+  imports: [RouterOutlet, RouterModule],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

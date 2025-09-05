@@ -9,4 +9,5 @@ import { Component, Input } from '@angular/core';
 export class SimplySection {
       @Input() title: string = '';
       @Input() paragraph: string = '';
+      @Input() style: string = '';
 }
