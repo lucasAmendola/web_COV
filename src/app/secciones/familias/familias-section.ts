@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-
 import { RouterModule } from '@angular/router';
 import { SmallBanner } from '../../small-banner/small-banner/small-banner';
 import { SimplySection } from '../../section-component/simply-section/simply-section';
