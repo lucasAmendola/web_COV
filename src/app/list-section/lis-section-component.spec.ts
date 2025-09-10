@@ -1,19 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { VeterinariosSection } from './veterinarios-section';
 
-11111
+import { LisSectionComponent } from './lis-section-component';
 
-describe('VeterinariosSection', () => {
-  let component: VeterinariosSection;
-  let fixture: ComponentFixture<VeterinariosSection>;
+describe('LisSectionComponent', () => {
+  let component: LisSectionComponent;
+  let fixture: ComponentFixture<LisSectionComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [VeterinariosSection]
+      imports: [LisSectionComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(VeterinariosSection);
+    fixture = TestBed.createComponent(LisSectionComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,7 +1,9 @@
-<nav>
+<nav [class.shadow]="isScrolled">
   <!-- Logo -->
-  <div>
-    <a [routerLink] = "['/home']" ><img class="logo" [src]="logo" alt="" srcset=""></a>
+  <div >
+    <a class="logo" [routerLink] = "['/home']" (mouseenter)="onLogoHover()" (mouseleave)="onLogoLeave()" #logoRef>
+      <img class="logoImg" [src]="logo" alt="" srcset="">
+    </a>
   </div>
   <!-- Opciones -->
   <div>

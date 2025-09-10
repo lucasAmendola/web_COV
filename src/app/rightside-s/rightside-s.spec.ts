@@ -1,19 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { VeterinariosSection } from './veterinarios-section';
 
-11111
+import { RightsideS } from './rightside-s';
 
-describe('VeterinariosSection', () => {
-  let component: VeterinariosSection;
-  let fixture: ComponentFixture<VeterinariosSection>;
+describe('RightsideS', () => {
+  let component: RightsideS;
+  let fixture: ComponentFixture<RightsideS>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [VeterinariosSection]
+      imports: [RightsideS]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(VeterinariosSection);
+    fixture = TestBed.createComponent(RightsideS);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -9,7 +9,7 @@
   /* Tipografía */
   --font-family-base: 'Poppins', sans-serif;
   --font-size-title: 2.3rem;
-  --font-size-paragraph: 1.125rem;
+  --font-size-paragraph: 1.2rem;
 }
 
 body{
@@ -32,9 +32,29 @@ p{
     font-size: var(--font-size-paragraph);
 }
 
-.logo{
+.logoImg{
     width: 18%;
 }
+
+.logo img {
+  transition: transform 0.4s ease, filter 0.4s ease;
+    will-change: transform, filter;
+}
+
+.logo:hover img {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 10px rgba(0, 102, 140, 0.3));
+}
+
+/* Keyframes para la animación de rebote */
+@keyframes logoBounce {
+    0%   { transform: scale(1); }
+    30%  { transform: scale(1.15) rotate(-3deg); }
+    50%  { transform: scale(0.95) rotate(3deg); }
+    70%  { transform: scale(1.1) rotate(-1deg); }
+    100% { transform: scale(1) rotate(0deg); }
+}
+
 
 nav {
     display: flex;
@@ -52,8 +72,8 @@ nav {
     transition: box-shadow .25s ease;
 }
 
-body:has(nav:sticky) nav {
-  box-shadow: 0 4px 10px rgba(0,0,0,.15);
+nav.shadow {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 nav ul {
@@ -89,7 +109,6 @@ footer{
     flex-direction: row;
     justify-content: space-between; /* empuja logo y menú a extremos */
     align-items:end; /* centra verticalmente */
-
 }
 
 .logoFooterContainer{
@@ -134,4 +153,30 @@ footer{
     nav ul li a {
         font-size: 18px; /* más grande en móvil para mejor legibilidad */
     }
+}
+
+.section1{
+    padding-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:justify;
+    align-items: center;
+    gap: 15px;
+}
+
+.titleContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.decoTitle{
+    width: 150px;
+    height: 5px;
+    background-color: #7ACBCF;
+}
+
+.section1 p{
+    width: 50%;
 }

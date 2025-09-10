@@ -1,19 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { VeterinariosSection } from './veterinarios-section';
 
-11111
+import { SmallCard } from './small-card';
 
-describe('VeterinariosSection', () => {
-  let component: VeterinariosSection;
-  let fixture: ComponentFixture<VeterinariosSection>;
+describe('SmallCard', () => {
+  let component: SmallCard;
+  let fixture: ComponentFixture<SmallCard>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [VeterinariosSection]
+      imports: [SmallCard]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(VeterinariosSection);
+    fixture = TestBed.createComponent(SmallCard);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

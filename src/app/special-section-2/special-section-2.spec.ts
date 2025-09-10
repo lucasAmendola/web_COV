@@ -1,19 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { VeterinariosSection } from './veterinarios-section';
 
-11111
+import { SpecialSection2 } from './special-section-2';
 
-describe('VeterinariosSection', () => {
-  let component: VeterinariosSection;
-  let fixture: ComponentFixture<VeterinariosSection>;
+describe('SpecialSection2', () => {
+  let component: SpecialSection2;
+  let fixture: ComponentFixture<SpecialSection2>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [VeterinariosSection]
+      imports: [SpecialSection2]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(VeterinariosSection);
+    fixture = TestBed.createComponent(SpecialSection2);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,19 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { VeterinariosSection } from './veterinarios-section';
 
-11111
+import { VariableSectionComponent } from './variable-section-component';
 
-describe('VeterinariosSection', () => {
-  let component: VeterinariosSection;
-  let fixture: ComponentFixture<VeterinariosSection>;
+describe('VariableSectionComponent', () => {
+  let component: VariableSectionComponent;
+  let fixture: ComponentFixture<VariableSectionComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [VeterinariosSection]
+      imports: [VariableSectionComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(VeterinariosSection);
+    fixture = TestBed.createComponent(VariableSectionComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

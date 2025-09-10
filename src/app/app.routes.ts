@@ -2,6 +2,7 @@ import { Routes } from '@angular/router';
 import { App } from './app';
 import { FamiliasSection } from './secciones/familias/familias-section';
 import { VeterinariosSection } from './secciones/veterinarios/veterinarios-section';
+import { Home } from './secciones/home/home';
 
 
 export const routes: Routes = [
@@ -12,7 +13,7 @@ export const routes: Routes = [
     },
     {
         path: 'home',
-        component: App
+        component: Home
     },
         {
         path: 'familias',
