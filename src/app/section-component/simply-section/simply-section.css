@@ -1,25 +1,5 @@
-.section1{
-    padding-top: 1%;
+.paragraphsContaniner{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align:justify;
-    align-items: center;
-    gap: 15px;
-}
-
-.titleContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.decoTitle{
-    width: 150px;
-    height: 5px;
-    background-color: #7ACBCF;
-}
-
-.section1 p{
-    width: 50%;
+    justify-self: center;
 }

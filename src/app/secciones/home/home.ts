@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { EspecialSection1 } from '../../especial-section-1/especial-section-1';
+import { SimplySection } from '../../section-component/simply-section/simply-section';
 
 @Component({
   selector: 'app-home',
-  imports: [EspecialSection1],
+  imports: [SimplySection],
   templateUrl: './home.html',
   styleUrl: './home.css'
 })
