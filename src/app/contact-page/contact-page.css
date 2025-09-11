@@ -1,0 +1,15 @@
+.contact-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    padding: 4%;
+}
+
+.left {
+  min-width: 400px;
+}
+
+.right {
+  min-width: 300px;
+}
