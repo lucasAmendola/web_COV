@@ -3,6 +3,7 @@
 
 .contact-container {
   max-width: 400px;
+  min-height: 480px;
   max-height: 480px;
   background-color: white;
   padding: 30px;
@@ -30,6 +31,10 @@ button {
   color: white;
   border: none;
   cursor: pointer;
+}
+
+button:hover {
+  background: #0d9e39;
 }
 
 button:disabled {
